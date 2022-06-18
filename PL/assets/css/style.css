@@ -116,9 +116,13 @@
     background: rgba(0,0,0,0.79);
     padding: 12px 0;
   }
-.logo {
-    display: none
-}
+  @media (max-width: 600px) {
+    .logo{
+          position: relative;
+          left: 50px
+    }
+    }
+
   @media (max-width: 480px) {
   .s-box{
         box-shadow:0;
